@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Music Playlist</h1>
+
+
+    <canvas id="music-wave" width="1500" height="200"></canvas>
+    <div id="playlist">
+        <ul id="songs-list"></ul>
+    </div>
+
+    <div class="song-add">
+        <form id="add-song-form">
+            <input type="file" id="song-file" accept=".mp3" required>
+            <button type="submit">Add Song</button>
+        </form>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
